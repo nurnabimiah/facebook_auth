@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(primarySwatch: Colors.blue, accentColor: Colors.red),
+      theme: ThemeData(primarySwatch: Colors.blue, accentColor: Colors.yellow),
       home: const FacebookAuth(),
     );
   }
